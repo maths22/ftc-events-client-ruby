@@ -1,0 +1,8 @@
+{
+  "gemVersion": "0.1.0",
+  "gemName": "ftc_events_client",
+  "moduleName": "FtcEventsClient",
+  "gemRequiredRubyVersion": ">= 2.4",
+  "gemHomepage": "https://github.com/maths22/ftc-events-client-ruby",
+  "gemDescription": "API Client for the FTC Events library"
+}
