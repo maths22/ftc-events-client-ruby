@@ -10,5 +10,5 @@ Swagger Codegen version: 3.0.52
 =end
 
 module FtcEventsClient
-  VERSION = '0.3.0'
+  VERSION = '0.3.1'
 end

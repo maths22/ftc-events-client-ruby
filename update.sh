@@ -5,4 +5,4 @@ swagger-codegen generate -i https://ftc-events.firstinspires.org/swagger/v2.0/sw
 
 sed "s/@scheme = 'http'/@scheme = 'https'/g" lib/ftc_events_client/configuration.rb > .tmpsedfile && mv .tmpsedfile lib/ftc_events_client/configuration.rb
 sed "s/@host = 'localhost'/@host = 'ftc-api.firstinspires.org'/g" lib/ftc_events_client/configuration.rb > .tmpsedfile && mv .tmpsedfile lib/ftc_events_client/configuration.rb 
-sed "s/@server_index = 0/@server_index = nil/g" lib/ftc_events_client/configuration.rb > .tmpsedfile && mv .tmpsedfile lib/ftc_events_client/configuration.rb 
+sed "s/@base_path = '.*'/@base_path = nil/g" lib/ftc_events_client/configuration.rb > .tmpsedfile && mv .tmpsedfile lib/ftc_events_client/configuration.rb 

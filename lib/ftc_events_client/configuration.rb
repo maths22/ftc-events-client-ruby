@@ -127,7 +127,7 @@ module FtcEventsClient
     def initialize
       @scheme = 'https'
       @host = 'ftc-api.firstinspires.org'
-      @base_path = 'http://ftc-api.firstinspires.org'
+      @base_path = nil
       @api_key = {}
       @api_key_prefix = {}
       @timeout = 0
@@ -167,7 +167,7 @@ module FtcEventsClient
     def base_path=(base_path)
       # Add leading and trailing slashes to base_path
       @base_path = "/#{base_path}".gsub(/\/+/, '/')
-      @base_path = '' if @base_path == '/'
+      @base_path = nil
     end
 
     def base_url
