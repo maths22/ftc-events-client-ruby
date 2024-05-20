@@ -18,5 +18,7 @@ Name | Type | Description | Notes
 **score_blue_auto** | **Integer** |  | [optional] 
 **score_blue_drive_controlled** | **Integer** |  | [optional] 
 **score_blue_endgame** | **Integer** |  | [optional] 
+**red_wins** | **BOOLEAN** |  | [optional] 
+**blue_wins** | **BOOLEAN** |  | [optional] 
 **teams** | [**Array&lt;ScheduleHybridModelTeamVersion2&gt;**](ScheduleHybridModelTeamVersion2.md) |  | [optional] 
 

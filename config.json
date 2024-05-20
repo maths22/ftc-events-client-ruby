@@ -1,5 +1,5 @@
 {
-  "gemVersion": "0.2.2",
+  "gemVersion": "0.3.0",
   "gemName": "ftc_events_client",
   "moduleName": "FtcEventsClient",
   "gemRequiredRubyVersion": ">= 2.4",

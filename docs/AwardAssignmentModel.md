@@ -5,6 +5,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **award_id** | **Integer** |  | [optional] 
 **team_id** | **Integer** |  | [optional] 
+**team_profile_id** | **Integer** |  | [optional] 
 **event_id** | **Integer** |  | [optional] 
 **event_division_id** | **Integer** |  | [optional] 
 **event_code** | **String** |  | [optional] 

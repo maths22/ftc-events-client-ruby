@@ -1,0 +1,35 @@
+# FtcEventsClient::ScoreDetailSinglePlayer2022
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**init_signal_sleeve** | **BOOLEAN** |  | [optional] 
+**robot_auto** | [**AutoNavigation**](AutoNavigation.md) |  | [optional] 
+**auto_terminal** | **Integer** |  | [optional] 
+**auto_junctions** | **Array&lt;Array&lt;Array&lt;JunctionElement&gt;&gt;&gt;** | Two dimensional array of lists of items scored on junctions in autonomous. [0,0] is the upper-left corner of the field as viewed from the audience side of the field. The array is indexed by row, then column. (e.g [0,2] is in the upper right corner of the field.) Each junction is stored bottom up (index 0 is the bottom-most element on the field). | [optional] 
+**dc_junctions** | **Array&lt;Array&lt;Array&lt;JunctionElement&gt;&gt;&gt;** | Two dimensional array of lists of items scored on junctions in driver-controlled. [0,0] is the upper-left corner of the field as viewed from the audience side of the field. The array is indexed by crow, then column. (e.g [0,2] is in the upper right corner of the field.) Each junction is stored bottom up (index 0 is the bottom-most element on the field). | [optional] 
+**dc_terminal** | **Integer** |  | [optional] 
+**eg_navigated** | **BOOLEAN** |  | [optional] 
+**minor_penalties** | **Integer** |  | [optional] 
+**major_penalties** | **Integer** |  | [optional] 
+**auto_navigation_points** | **Integer** |  | [optional] 
+**signal_bonus_points** | **Integer** |  | [optional] 
+**auto_junction_cone_points** | **Integer** |  | [optional] 
+**auto_terminal_cone_points** | **Integer** |  | [optional] 
+**dc_junction_cone_points** | **Integer** |  | [optional] 
+**dc_terminal_cone_points** | **Integer** |  | [optional] 
+**ownership_points** | **Integer** |  | [optional] 
+**circuit_points** | **Integer** |  | [optional] 
+**eg_navigation_points** | **Integer** |  | [optional] 
+**auto_points** | **Integer** |  | [optional] 
+**dc_points** | **Integer** |  | [optional] 
+**endgame_points** | **Integer** |  | [optional] 
+**penalty_points_committed** | **Integer** |  | [optional] 
+**pre_penalty_total** | **Integer** |  | [optional] 
+**auto_junction_cones** | **Array&lt;Integer&gt;** | Array of 4 cone counts scored by this team on ground, low, medium, and high junctions respectively, scored in autonomous. E.g. red.autoJunctionCones[2] is the total number of cones scored by red on medium-height junctions. | [optional] 
+**dc_junction_cones** | **Array&lt;Integer&gt;** | Array of 4 cone counts scored by this team on ground, low, medium, and high junctions respectively, scored in driver-controlled. E.g. red.dcJunctionCones[2] is the total number of cones scored by red on medium-height junctions. | [optional] 
+**beacons** | **Integer** |  | [optional] 
+**owned_junctions** | **Integer** |  | [optional] 
+**circuit** | **BOOLEAN** |  | [optional] 
+**total_points** | **Integer** |  | [optional] 
+

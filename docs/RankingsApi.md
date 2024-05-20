@@ -1,6 +1,6 @@
 # FtcEventsClient::RankingsApi
 
-All URIs are relative to *https://ftc-api.firstinspires.org*
+All URIs are relative to *http://ftc-api.firstinspires.org*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------

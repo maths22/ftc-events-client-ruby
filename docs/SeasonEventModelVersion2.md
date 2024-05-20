@@ -3,6 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
+**event_id** | **String** |  | [optional] 
 **code** | **String** |  | [optional] 
 **division_code** | **String** |  | [optional] 
 **name** | **String** |  | [optional] 
@@ -21,6 +22,8 @@ Name | Type | Description | Notes
 **stateprov** | **String** |  | [optional] 
 **country** | **String** |  | [optional] 
 **website** | **String** |  | [optional] 
+**live_stream_url** | **String** |  | [optional] 
+**coordinates** | [**Point**](Point.md) |  | [optional] 
 **webcasts** | **Array&lt;String&gt;** |  | [optional] 
 **timezone** | **String** |  | [optional] 
 **date_start** | **DateTime** |  | [optional] 
