@@ -1,15 +1,12 @@
 # FtcEventsClient::RankingsApi
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://ftc-api.firstinspires.org*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**v20_season_rankings_event_code_get**](RankingsApi.md#v20_season_rankings_event_code_get) | **GET** /v2.0/{season}/rankings/{eventCode} | Event Rankings
 
-
-
-## v20_season_rankings_event_code_get
-
+# **v20_season_rankings_event_code_get**
 > EventRankingsModel v20_season_rankings_event_code_get(season, event_code, opts)
 
 Event Rankings
@@ -17,7 +14,6 @@ Event Rankings
 The rankings API returns team ranking detail from a particular event in a particular season. Optionally, the `top` parameter can be added to the query string to request a subset of the rankings based on the highest ranked teams at the time of the request. Alternately, you can specify the `teamNumber` parameter to retrieve the ranking on one specific team. You cannot specify both a `top` and `teamNumber` in the same call.
 
 ### Example
-
 ```ruby
 # load the gem
 require 'ftc_events_client'
@@ -31,7 +27,7 @@ end
 api_instance = FtcEventsClient::RankingsApi.new
 season = 56 # Integer | Numeric year of the event from which the rankings are requested. Must be 4 digits
 event_code = 'event_code_example' # String | Case insensitive alphanumeric `eventCode` of the event from which the rankings are requested. Must be at least 3 characters.
-opts = {
+opts = { 
   team_number: 0, # Integer | Team number of the team whose ranking is requested.
   top: 0 # Integer | number of requested `top` ranked teams to return in result.
 }
@@ -46,7 +42,6 @@ end
 ```
 
 ### Parameters
-
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
@@ -65,6 +60,8 @@ Name | Type | Description  | Notes
 
 ### HTTP request headers
 
-- **Content-Type**: Not defined
-- **Accept**: application/json
+ - **Content-Type**: Not defined
+ - **Accept**: application/json
+
+
 

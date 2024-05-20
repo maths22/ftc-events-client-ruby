@@ -2,15 +2,14 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
 
 ## Code Sample
 
 ```ruby
-require 'FtcEventsClient'
+require 'ftc_events_client'
 
 instance = FtcEventsClient::TournamentLevel.new()
 ```
-
 

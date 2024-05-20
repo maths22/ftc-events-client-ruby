@@ -1,15 +1,12 @@
 # FtcEventsClient::GeneralApi
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://ftc-api.firstinspires.org*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**v20_get**](GeneralApi.md#v20_get) | **GET** /v2.0 | API Index
 
-
-
-## v20_get
-
+# **v20_get**
 > ApiIndexModel v20_get
 
 API Index
@@ -17,7 +14,6 @@ API Index
 Root level call with no parameters.
 
 ### Example
-
 ```ruby
 # load the gem
 require 'ftc_events_client'
@@ -34,7 +30,6 @@ end
 ```
 
 ### Parameters
-
 This endpoint does not need any parameter.
 
 ### Return type
@@ -47,6 +42,8 @@ No authorization required
 
 ### HTTP request headers
 
-- **Content-Type**: Not defined
-- **Accept**: application/json
+ - **Content-Type**: Not defined
+ - **Accept**: application/json
+
+
 

@@ -1,7 +1,6 @@
 # FtcEventsClient::TeamRankingModel
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **rank** | **Integer** |  | [optional] 
@@ -19,27 +18,4 @@ Name | Type | Description | Notes
 **dq** | **Integer** |  | [optional] 
 **matches_played** | **Integer** |  | [optional] 
 **matches_counted** | **Integer** |  | [optional] 
-
-## Code Sample
-
-```ruby
-require 'FtcEventsClient'
-
-instance = FtcEventsClient::TeamRankingModel.new(rank: null,
-                                 team_number: null,
-                                 sort_order1: null,
-                                 sort_order2: null,
-                                 sort_order3: null,
-                                 sort_order4: null,
-                                 sort_order5: null,
-                                 sort_order6: null,
-                                 wins: null,
-                                 losses: null,
-                                 ties: null,
-                                 qual_average: null,
-                                 dq: null,
-                                 matches_played: null,
-                                 matches_counted: null)
-```
-
 

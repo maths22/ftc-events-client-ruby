@@ -1,7 +1,6 @@
 # FtcEventsClient::AllianceModelVersion2
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **number** | **Integer** |  | [optional] 
@@ -12,20 +11,4 @@ Name | Type | Description | Notes
 **round3** | **Integer** |  | [optional] 
 **backup** | **Integer** |  | [optional] 
 **backup_replaced** | **Integer** |  | [optional] 
-
-## Code Sample
-
-```ruby
-require 'FtcEventsClient'
-
-instance = FtcEventsClient::AllianceModelVersion2.new(number: null,
-                                 name: null,
-                                 captain: null,
-                                 round1: null,
-                                 round2: null,
-                                 round3: null,
-                                 backup: null,
-                                 backup_replaced: null)
-```
-
 

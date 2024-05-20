@@ -1,15 +1,12 @@
 # FtcEventsClient::AllianceSelectionApi
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://ftc-api.firstinspires.org*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**v20_season_alliances_event_code_get**](AllianceSelectionApi.md#v20_season_alliances_event_code_get) | **GET** /v2.0/{season}/alliances/{eventCode} | Event Alliances
 
-
-
-## v20_season_alliances_event_code_get
-
+# **v20_season_alliances_event_code_get**
 > AllianceSelectionModelVersion2 v20_season_alliances_event_code_get(season, event_code)
 
 Event Alliances
@@ -17,7 +14,6 @@ Event Alliances
 The alliances API returns details about alliance selection at a particular event in a particular season.
 
 ### Example
-
 ```ruby
 # load the gem
 require 'ftc_events_client'
@@ -32,6 +28,7 @@ api_instance = FtcEventsClient::AllianceSelectionApi.new
 season = 56 # Integer | Numeric year of the event from which the event alliances are requested. Must be 4 digits.
 event_code = 'event_code_example' # String | Case insensitive alphanumeric `eventCode` of the event from which the alliance selection results are requested. Must be at least 3 characters.
 
+
 begin
   #Event Alliances
   result = api_instance.v20_season_alliances_event_code_get(season, event_code)
@@ -42,7 +39,6 @@ end
 ```
 
 ### Parameters
-
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
@@ -59,6 +55,8 @@ Name | Type | Description  | Notes
 
 ### HTTP request headers
 
-- **Content-Type**: Not defined
-- **Accept**: application/json
+ - **Content-Type**: Not defined
+ - **Accept**: application/json
+
+
 
